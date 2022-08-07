@@ -1,0 +1,131 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #ddd;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #080730;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #090840;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+.content {
+  background: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+  position: static;
+  background-repeat: round;
+
+
+}
+
+.main {
+  height: 980px;
+  background-color: rgba(7, 17, 44, 0.7);
+  font-family: 'Exo', sans-serif;
+
+
+}
+
+.l1 {
+  color: white;
+  font-size: 5em;
+  margin-bottom: 40px;
+  letter-spacing: 10px;
+
+
+
+}
+
+.l2 {
+  color: #757F9A;
+  font-size: 27px;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+}
+
+.main_inner {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+padding: 0;
+}
+
+.links li a {
+  margin: 25px;
+  font-size: 40px;
+  color: white;
+
+}
+
+.links li a :hover {
+
+  background-color: rgb(192, 60, 60);
+  transition: background-color 0.2s ease-in-out;
+}
+
+.links li a i {
+  padding: 15px;
+  border: white solid 1px;
+  border-radius: 100%;
+}
+
+
+.links li {
+  text-align: center;
+}
+
+.buttons {
+  list-style: none;
+  color: white;
+  display: inline-flex;
+  margin-bottom: 130px;
+}
+
+.buttons li button {
+  margin: 15px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.tec {
+  list-style: none;
+  display: inline-flex;
+
+}
+
+.tec li {
+  margin: 30px;
+}
+
+.tec li i {
+  margin: 25px;
+  font-size: 60px;
+  color: rgb(165, 165, 165);
+
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    position: absolute;
+    height: 1100px;
+  }
+
+  .main {
+    height: 1100px;
+  }
+
+  .main_inner {
+    margin-right: 0px;
+  }
+}

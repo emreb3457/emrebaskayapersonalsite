@@ -18,7 +18,7 @@ export default class Cv extends Component {
               <li><a target="blank" href="https://www.linkedin.com/in/emre-başkaya-ab086a15b/"><i className="fab fa-linkedin-in"></i></a></li>
               <li><a target="blank" href="https://github.com/emreb3457"><i className="fab fa-github" ></i></a></li>
               <li><a target="blank" href="https://www.instagram.com/emrebaskayaaa/?hl=tr"><i className="fab fa-instagram"></i></a></li>
-              <li><a target="blank" href="https://drive.google.com/file/d/19XPFI-BC_lzMq77Y1sKomRxfZ8pMv5mH/view?usp=sharing"><i className="fas fa-file"></i></a></li>
+              <li><a target="blank" href="https://drive.google.com/file/d/1OqKpsJMLv1C62j1gHsjQNO0ODBoiRAI0/view?usp=sharing"><i className="fas fa-file"></i></a></li>
             </ul>
             <br />
             <br />
